@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter', sans-serif;
+}
+.prdcrd{
+    
+    background: #FFFFFF;
+    box-shadow: 0px 0px 5px 1px #EAEAEA;
+    border-radius: 5px;
+    margin-right: 0px;
+    padding: 10px;
+    margin-bottom:30px;
+}
+.T1{
+    
+
+
+font-weight: 600;
+font-size: 2rem;
+line-height: 29px;
+/* identical to box height */
+
+
+color: #949494;
+text-align: left;
+
+}
+.T2{
+  
+
+font-weight: 400;
+font-size: 2rem;
+line-height: 29px;
+/* identical to box height */
+
+text-align: left;
+color: #000000;
+
+}
+.T3{
+    font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: left;
+color: #949494;
+
+}
+.T4{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+    color: #000000;
+    text-align: left;
+}
+.T5{
+    font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+text-align: left;
+text-decoration-line: line-through;
+
+color: #949494;
+
+}
+.T6{
+    font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+text-align: left;
+color: #1B9327;
+
+}
+.prdimg{
+    width: 50%;
+}
+.TN{
+    text-align:left;
+}
+nav{
+    background-color: #161335;
+    color: #FFFFFF;
+}
+/* .nav{
+    .navbar {
+    background-color: #000099;
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 10px;
+    /* padding-bottom: 5px; */
+
+
+
+.one {
+    width: 10%;
+    /* background-color: white; */
+}
+
+.two {
+    width: 75%;
+}
+
+
+.three {
+    width: 15%;
+}
+
+body {
+    background-color: lightblue;
+}
+
+.four {
+    height: 50px;
+    width: 100%;
+    background-color: white;
+}
+
+.five {
+    padding-top: 30px;
+    border-left: 150px;
+    border-right: 180px;
+    border-style: solid;
+    border-color: lightblue;
+}
+
+.img1 {
+    width: 100%;
+}
+
+h1 {
+    /* text-align: center; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* text-shadow: 2rem; */
+    font-size: 3.0rem;
+}
+
+.nav-brand {
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.navbar-nav {
+    text-align: right;
+
+}
+
+.six {
+    background-color: white;
+    height: 30px;
+    padding: 1.5%;
+}
+.nav{
+    
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 37px;
+
+color: #FFFFFF;
+
+}
+.nav_search
+{
+    width: 40%;
+}
+.brand
+{
+    color: #EAEAEA;
+    text-decoration: none;
+    font-family: ubuntu;
+}
+.main_nav
+{
+    background-color: #161335;
+    margin-bottom: 1%;
+    padding-top: 0.5%;
+    padding-left: .5%;
+    padding-right: 0.5%;
+}
+.login
+{
+    font-family: monsterrat;
+    text-decoration: none;
+    
+    font-size: 2rem;
+    color: white;
+    
+}
+.buttons
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 1%;
+}
+.button-nav
+{
+    background-color: #161335 ;
+    
+    height: 2.5rem;
+    color: white;
+    text-align: center;
+
+}
+.bottom_nav
+{   padding-top: 5rem;
+    text-decoration: none;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    background-color: #161335;
+    color: white;
+}
+li{
+    list-style: none;
+    font-size: 1.5rem;
+}
+.footer
+{
+    background-color: #161335;
+    font-size: 1rem;
+    text-align: center;
+    color: white;
+    margin-bottom: 0;
+
+    padding-top: 2rem;
+}
+.buttons{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 30px;
+
+color: #FFFFFF;
+
+}
+
+.imgcss{
+    width:180px;
+    display: inline;
+}
+.tphead{
+    font-size: 2rem;
+    width: 10px;
+    display: inline;
+}
+.navheight{
+    padding:20px 0;
+}
+
+/* .form-control{
+    font-size: 1.5rem;
+    height: 60px;
+} */
+
+#formid{
+    font-size: 2rem;
+    height: 60px;
+}
+.icon2{
+    margin-top: 20px;
+}
+@media only screen and (max-width:600px){
+    .buttons{
+        font-size:15px;
+    }
+    .form-control{
+        
+    }
+}
