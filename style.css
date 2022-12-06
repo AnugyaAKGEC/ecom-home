@@ -176,7 +176,7 @@ color: #FFFFFF;
 
 }
 .nav_search
-{
+{ margin-top: 2rem;
     width: 40%;
 }
 .brand
@@ -200,22 +200,24 @@ color: #FFFFFF;
     
     font-size: 2rem;
     color: white;
-    
+    margin-right: 3rem;
 }
 .buttons
 {
     display: flex;
     justify-content: space-evenly;
-    padding-bottom: 1%;
+    padding: 1%;
+    text-align: center;
+
 }
 .button-nav
 {
     background-color: #161335 ;
+    font-size: 2rem;
+    padding: 1%;
     
-    height: 2.5rem;
     color: white;
     text-align: center;
-
 }
 .bottom_nav
 {   padding-top: 5rem;
@@ -240,7 +242,7 @@ li{
 
     padding-top: 2rem;
 }
-.buttons{
+.buttons2{
     font-family: 'Montserrat';
 font-style: normal;
 font-weight: 300;
@@ -250,6 +252,20 @@ line-height: 30px;
 color: #FFFFFF;
 
 }
+
+.grid-container {
+    display: grid;
+    grid-column-gap: 50px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+@media (max-width: 600px) {
+    .grid-container { grid-template-columns: repeat(1, 1fr); }
+  }
+
+  .grid-item {
+    text-align: center;
+  }
 
 .imgcss{
     width:180px;
@@ -272,15 +288,38 @@ color: #FFFFFF;
 #formid{
     font-size: 2rem;
     height: 60px;
+    margin-left: 4rem;
 }
 .icon2{
     margin-top: 20px;
+    margin-left: 6rem;
 }
+
 @media only screen and (max-width:600px){
     .buttons{
-        font-size:15px;
+        font-size: 50px;
     }
-    .form-control{
-        
+
+    .button-nav{
+        font-size: 10px;
+        text-decoration: none;
+        display: flex;
+        list-style: none;
+        justify-content: space-around;
+        background-color: #161335;
+        color: white;
+        height: rem;
+    }
+    .icon2{
+        display:none;
+    }
+    .bottom_nav{
+        margin-left: rem;
+        font-size: 4px;
+        display: block;
+        text-align: center;
+    }
+    .grid-container{
+        font-size: 4px;
     }
 }
